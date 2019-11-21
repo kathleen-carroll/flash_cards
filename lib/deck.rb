@@ -3,12 +3,12 @@ class Deck
 
   def initialize(cards)
     @cards = cards
-    @deck = []
+    #@deck = []
   end
 
-  def add_card(cards)
-    @deck << cards
-  end
+  # def add_card(cards)
+  #   @deck << cards
+  # end
 
   def count
     @deck.count
