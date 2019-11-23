@@ -1,7 +1,7 @@
 require './lib/turn'
 
 class Round
-  attr_reader :deck, :turns
+  attr_reader :deck, :turns, :num
 
   def initialize(deck)
     @deck = deck
